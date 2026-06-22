@@ -68,31 +68,28 @@ Football draws are common in normal matches, but knockout games require a winner
 ### Champion Probabilities
 <img width="3182" height="3318" alt="image" src="https://github.com/user-attachments/assets/89c287a2-314b-402f-9815-7c91d89e0931" />
 
-### Group Stage Final Standings
-## Projected Group Stage Standings
+### Projected Group Stage Standings
 
-## Projected Group Stage Standings
-
-🟢 = Qualified (Top 2)  
-🟡 = Third Place (Best Third-Place qualification possible)  
+🟢 = Automatic Qualification (Top 2)  
+🟡 = Third Place  
 🔴 = Eliminated
 
 | Group | 1st | 2nd | 3rd | 4th |
 |---------|---------|---------|---------|---------|
-| A | 🟢 Mexico | 🟢 South Korea | 🟡 Czech Republic | 🔴 South Africa |
+| A | 🟢 Mexico | 🟢 South Korea | 🟡 Czechia | 🔴 South Africa |
 | B | 🟢 Switzerland | 🟢 Canada | 🟡 Bosnia and Herzegovina | 🔴 Qatar |
 | C | 🟢 Brazil | 🟢 Morocco | 🟡 Scotland | 🔴 Haiti |
-| D | 🟢 Paraguay | 🟢 Turkey | 🟡 United States | 🔴 Australia |
-| E | 🟢 Ivory Coast | 🟢 Germany | 🟡 Ecuador | 🔴 Curaçao |
-| F | 🟢 Netherlands | 🟢 Japan | 🟡 Sweden | 🔴 Tunisia |
-| G | 🟢 Belgium | 🟢 Iran | 🟡 New Zealand | 🔴 Egypt |
-| H | 🟢 Uruguay | 🟢 Spain | 🟡 Saudi Arabia | 🔴 Cape Verde |
+| D | 🟢 Turkey | 🟢 United States | 🟡 Australia | 🔴 Paraguay |
+| E | 🟢 Germany | 🟢 Ecuador | 🟡 Côte d'Ivoire | 🔴 Curaçao |
+| F | 🟢 Japan | 🟢 Netherlands | 🟡 Sweden | 🔴 Tunisia |
+| G | 🟢 Belgium | 🟢 Iran | 🟡 Egypt | 🔴 New Zealand |
+| H | 🟢 Spain | 🟢 Uruguay | 🟡 Cape Verde | 🔴 Saudi Arabia |
 | I | 🟢 France | 🟢 Norway | 🟡 Senegal | 🔴 Iraq |
-| J | 🟢 Austria | 🟢 Argentina | 🟡 Algeria | 🔴 Jordan |
-| K | 🟢 Portugal | 🟢 Colombia | 🟡 DR Congo | 🔴 Uzbekistan |
+| J | 🟢 Argentina | 🟢 Algeria | 🟡 Austria | 🔴 Jordan |
+| K | 🟢 Colombia | 🟢 Portugal | 🟡 Uzbekistan | 🔴 DR Congo |
 | L | 🟢 England | 🟢 Croatia | 🟡 Panama | 🔴 Ghana |
 
-*Projected standings from a representative tournament simulation generated using the trained XGBoost model.*
+*Projected standings from 10,000 Monte Carlo World Cup simulations using the trained XGBoost prediction model.*
 
 ### Knockout Bracket
 <img width="5059" height="3600" alt="knockout_probability_flow" src="https://github.com/user-attachments/assets/d6c738a3-c1fa-4411-a5da-d200d8fc32b8" />
