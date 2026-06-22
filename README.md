@@ -71,22 +71,28 @@ Football draws are common in normal matches, but knockout games require a winner
 ### Group Stage Final Standings
 ## Projected Group Stage Standings
 
-| Group | Winner | Runner-Up |
-|---------|---------|---------|
-| A | Mexico | South Korea |
-| B | Switzerland | Canada |
-| C | Brazil | Morocco |
-| D | Turkey | United States |
-| E | Germany | Ecuador |
-| F | Japan | Netherlands |
-| G | Belgium | Iran |
-| H | Spain | Uruguay |
-| I | France | Norway |
-| J | Argentina | Algeria |
-| K | Colombia | Portugal |
-| L | England | Croatia |
+## Projected Group Stage Standings
 
-*Based on 10,000 Monte Carlo simulations using the trained XGBoost model.*
+🟢 = Qualified (Top 2)  
+🟡 = Third Place (Best Third-Place qualification possible)  
+🔴 = Eliminated
+
+| Group | 1st | 2nd | 3rd | 4th |
+|---------|---------|---------|---------|---------|
+| A | 🟢 Mexico | 🟢 South Korea | 🟡 Czech Republic | 🔴 South Africa |
+| B | 🟢 Switzerland | 🟢 Canada | 🟡 Bosnia and Herzegovina | 🔴 Qatar |
+| C | 🟢 Brazil | 🟢 Morocco | 🟡 Scotland | 🔴 Haiti |
+| D | 🟢 Paraguay | 🟢 Turkey | 🟡 United States | 🔴 Australia |
+| E | 🟢 Ivory Coast | 🟢 Germany | 🟡 Ecuador | 🔴 Curaçao |
+| F | 🟢 Netherlands | 🟢 Japan | 🟡 Sweden | 🔴 Tunisia |
+| G | 🟢 Belgium | 🟢 Iran | 🟡 New Zealand | 🔴 Egypt |
+| H | 🟢 Uruguay | 🟢 Spain | 🟡 Saudi Arabia | 🔴 Cape Verde |
+| I | 🟢 France | 🟢 Norway | 🟡 Senegal | 🔴 Iraq |
+| J | 🟢 Austria | 🟢 Argentina | 🟡 Algeria | 🔴 Jordan |
+| K | 🟢 Portugal | 🟢 Colombia | 🟡 DR Congo | 🔴 Uzbekistan |
+| L | 🟢 England | 🟢 Croatia | 🟡 Panama | 🔴 Ghana |
+
+*Projected standings from a representative tournament simulation generated using the trained XGBoost model.*
 
 ### Knockout Bracket
 <img width="5059" height="3600" alt="knockout_probability_flow" src="https://github.com/user-attachments/assets/d6c738a3-c1fa-4411-a5da-d200d8fc32b8" />
