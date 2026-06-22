@@ -2,8 +2,6 @@
 
 This project builds a neutral-venue football prediction pipeline for the 2026 FIFA World Cup. It creates Elo ratings from historical international results, engineers team-form features, trains match outcome models, simulates the group stage, builds the new 48-team knockout bracket, and generates readable probability flow graphs for the tournament path.
 
-<img width="3182" height="3318" alt="image" src="https://github.com/user-attachments/assets/89c287a2-314b-402f-9815-7c91d89e0931" />
-
 
 ## What The Project Does
 
@@ -64,6 +62,37 @@ Football draws are common in normal matches, but knockout games require a winner
 - The model still predicts win/draw/loss probabilities.
 - Draw probability is redistributed into advancement probability using penalty/extra-time edge.
 - The CSV preserves both base draw probability and final advance probability.
+
+## Results & Visualizations
+
+### Champion Probabilities
+<img width="3182" height="3318" alt="image" src="https://github.com/user-attachments/assets/89c287a2-314b-402f-9815-7c91d89e0931" />
+
+### Group Stage Final Standings
+## Projected Group Stage Standings
+
+| Group | Winner | Runner-Up |
+|---------|---------|---------|
+| A | Mexico | South Korea |
+| B | Switzerland | Canada |
+| C | Brazil | Morocco |
+| D | Turkey | United States |
+| E | Germany | Ecuador |
+| F | Japan | Netherlands |
+| G | Belgium | Iran |
+| H | Spain | Uruguay |
+| I | France | Norway |
+| J | Argentina | Algeria |
+| K | Colombia | Portugal |
+| L | England | Croatia |
+
+*Based on 10,000 Monte Carlo simulations using the trained XGBoost model.*
+
+### Knockout Bracket
+<img width="5059" height="3600" alt="knockout_probability_flow" src="https://github.com/user-attachments/assets/d6c738a3-c1fa-4411-a5da-d200d8fc32b8" />
+
+### Winner Path
+<img width="3113" height="1344" alt="champion_path" src="https://github.com/user-attachments/assets/774ad6bd-fde1-4970-8ced-806c10db0292" />
 
 ## Caveats
 
