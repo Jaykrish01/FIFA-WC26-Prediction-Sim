@@ -2,7 +2,8 @@
 
 This project builds a neutral-venue football prediction pipeline for the 2026 FIFA World Cup. It creates Elo ratings from historical international results, engineers team-form features, trains match outcome models, simulates the group stage, builds the new 48-team knockout bracket, and generates readable probability flow graphs for the tournament path.
 
-![Tournament Winners Probability](results/knockouts_and_final/graphs/champion_probability_ladder.png)
+<img width="3182" height="3318" alt="image" src="https://github.com/user-attachments/assets/89c287a2-314b-402f-9815-7c91d89e0931" />
+
 
 ## What The Project Does
 
