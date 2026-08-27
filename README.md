@@ -97,6 +97,40 @@ Football draws are common in normal matches, but knockout games require a winner
 ### Winner Path
 <img width="3113" height="1344" alt="champion_path" src="https://github.com/user-attachments/assets/774ad6bd-fde1-4970-8ced-806c10db0292" />
 
+## 📊 Backtesting Against the Actual 2026 FIFA World Cup
+
+This repository contains a machine learning–based simulation of the 2026 FIFA World Cup.  
+The model was retrospectively compared against the actual tournament outcomes.
+
+### ✅ Performance Metrics
+
+| Metric                          | Result         |
+|---------------------------------|----------------|
+| Correct Group Winners           | 10 / 12 (83.3%) |
+| Correct Top-2 Qualification     | 18 / 24 (75.0%) |
+| Actual Round-of-32 Teams Covered| 26 / 32 (81.3%) |
+| Actual Round-of-16 Teams Covered| 15 / 16 (93.8%) |
+| Actual Quarter-Finalists Covered| 8 / 8 (100%)   |
+| Actual Semi-Finalists Covered   | 4 / 4 (100%)   |
+| Predicted Champion              | Spain ✅        |
+
+### 🏆 Tournament Outcome
+
+- **Champion:** Spain (defeated Argentina 1–0 after extra time)  
+- **Runner-up:** Argentina  
+- **Semi-finalists:** Spain, Argentina, France, England  
+
+The model ranked **Spain as the #1 title contender (15.3%)** before the tournament, which matched the actual outcome.
+
+- Strongest performance came from **identifying deep-run contenders** rather than exact group/knockout positions.
+- Successfully:
+  - Identified **83.3% of group winners**
+  - Identified **75.0% of top-two qualifiers**
+  - Covered **26 of 32 Round-of-32 teams**
+  - Covered **15 of 16 Round-of-16 teams**
+  - Included **all quarter-finalists and semi-finalists** among simulated contenders
+  - Correctly predicted **Spain as champion**
+
 ## Caveats
 
 This is a statistical simulation, not a guarantee. International football has high randomness, low scoring, tactical matchup effects, injuries, squad selection uncertainty, penalties, and tournament pressure that cannot be fully captured from historical results alone.
